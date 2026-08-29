@@ -1,7 +1,12 @@
 name: CI Pipeline
 
 on:
-  # Manual trigger for the workflow
+  # Trigger automatically when code is pushed to main
+  push:
+    branches:
+      - main
+
+  # Allow manual triggering from GitHub Actions
   workflow_dispatch:
 
 
