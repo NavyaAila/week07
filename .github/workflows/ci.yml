@@ -1,7 +1,7 @@
 name: CI Pipeline
 
 on:
-  # Trigger automatically when code is pushed to main
+  # Trigger automatically when code is pushed to main by navya
   push:
     branches:
       - main
